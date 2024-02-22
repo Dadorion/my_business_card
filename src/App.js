@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import './scss/App.scss'
+
+import ScreenI from './screens/Screen_I/Screen_I'
+import ScreenII from './screens/Screen_II/Screen_II'
+import ScreenIII from './screens/Screen_III/Screen_III'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <ScreenI />
+      <ScreenII />
+      <ScreenIII />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

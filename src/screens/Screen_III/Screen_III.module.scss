@@ -1,0 +1,33 @@
+@import './Screen_III-media';
+@import '../../scss/base/extends.scss';
+@import '../../scss/base/vars';
+
+.Screen_III {
+  @media (min-width: 1201px) {
+    margin: 150px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    > div {
+      margin: 50px;
+    }
+    .contacts_block {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+
+      > div {
+        display: flex;
+        margin: 0 1rem;
+        gap: 0.8rem;
+      }
+    }
+    .authors_block {
+      opacity: 40%;
+    }
+  }
+}
