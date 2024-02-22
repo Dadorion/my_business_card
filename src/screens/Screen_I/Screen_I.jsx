@@ -67,8 +67,10 @@ export default function ScreenI() {
         <h2 className={s.title_two}>разработчик</h2>
         <h3 className={s.subtitle}>Антон Бабенко</h3>
         <div className={s.button}>
-          <img src={telegramDarkIcon} alt='telegramDarkIcon' />
-          <p>Связаться</p>
+          <a href='https://t.me/anton_babenko'>
+            <img src={telegramDarkIcon} alt='telegramDarkIcon' />
+            <p>Связаться</p>
+          </a>
         </div>
       </div>
       <div className={s.photo_box}>
