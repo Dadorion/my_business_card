@@ -19,6 +19,10 @@ export default function ScreenI() {
 
     setIsShowNav(!isShowNav)
   }
+  const handleCloseNav = () => {
+    setNavClass(s.nav)
+    setIsShowNav(false)
+  }
 
   return (
     <div className={s.Screen_I} id='#info'>
@@ -31,13 +35,13 @@ export default function ScreenI() {
             <img src={exitIcon} alt='exitIcon' />
           </div>
           <ul className={s.ul_nav}>
-            <li>
+            <li onClick={handleCloseNav}>
               <a href='#info'>Инфо</a>
             </li>
-            <li>
+            <li onClick={handleCloseNav}>
               <a href='#skills'>Скилы</a>
             </li>
-            <li>
+            <li onClick={handleCloseNav}>
               <a href='#contacts'>Контакты</a>
             </li>
           </ul>
@@ -45,12 +49,12 @@ export default function ScreenI() {
             <li>
               <img src={phoneIcon} alt='phoneIcon' />
             </li>
-            <li>
+            <li className={s.telegramIcon}>
               <a href='https://t.me/anton_babenko'>
                 <img src={telegramIcon} alt='telegramIcon' />
               </a>
             </li>
-            <li>
+            <li className={s.gitIcon}>
               <a href='https://github.com/Dadorion'>
                 <img src={gitIcon} alt='gitIcon' />
               </a>
