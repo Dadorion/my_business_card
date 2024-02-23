@@ -47,7 +47,9 @@ export default function ScreenI() {
           </ul>
           <ul className={s.contacts}>
             <li>
-              <img src={phoneIcon} alt='phoneIcon' />
+              <a href='tel:+79003539939'>
+                <img src={phoneIcon} alt='phoneIcon' />
+              </a>
             </li>
             <li className={s.telegramIcon}>
               <a href='https://t.me/anton_babenko'>
@@ -60,7 +62,9 @@ export default function ScreenI() {
               </a>
             </li>
             <li>
-              <img src={mailIcon} alt='mailIcon' />
+              <a href='mailto:anton.notes88@gmail.com'>
+                <img src={mailIcon} alt='mailIcon' />
+              </a>
             </li>
           </ul>
         </nav>
