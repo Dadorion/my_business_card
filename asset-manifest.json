@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my_business_card/static/css/main.7cc97743.css",
-    "main.js": "/my_business_card/static/js/main.28dda54b.js",
+    "main.css": "/my_business_card/static/css/main.b8cf2d54.css",
+    "main.js": "/my_business_card/static/js/main.e99f2526.js",
     "static/media/Антон_ai_clean_colored 1.png": "/my_business_card/static/media/Антон_ai_clean_colored 1.33c34a3348ecfe6a8d7a.png",
     "static/media/React.png": "/my_business_card/static/media/React.3205b53d8b7d3181c137.png",
     "static/media/Users.svg": "/my_business_card/static/media/Users.edfc457dc38e1449b65c8359ccd2f06c.svg",
@@ -24,11 +24,11 @@
     "static/media/Database.svg": "/my_business_card/static/media/Database.b24dd9a575f0d647f7da221dd69e9035.svg",
     "index.html": "/my_business_card/index.html",
     "static/media/Menu.svg": "/my_business_card/static/media/Menu.9546fd2640fe0040241c30cbfc965014.svg",
-    "main.7cc97743.css.map": "/my_business_card/static/css/main.7cc97743.css.map",
-    "main.28dda54b.js.map": "/my_business_card/static/js/main.28dda54b.js.map"
+    "main.b8cf2d54.css.map": "/my_business_card/static/css/main.b8cf2d54.css.map",
+    "main.e99f2526.js.map": "/my_business_card/static/js/main.e99f2526.js.map"
   },
   "entrypoints": [
-    "static/css/main.7cc97743.css",
-    "static/js/main.28dda54b.js"
+    "static/css/main.b8cf2d54.css",
+    "static/js/main.e99f2526.js"
   ]
 }
