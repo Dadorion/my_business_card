@@ -19,6 +19,10 @@ export default function ScreenI() {
 
     setIsShowNav(!isShowNav)
   }
+  const handleCloseNav = () => {
+    setNavClass(s.nav)
+    setIsShowNav(false)
+  }
 
   return (
     <div className={s.Screen_I} id='#info'>
@@ -31,32 +35,36 @@ export default function ScreenI() {
             <img src={exitIcon} alt='exitIcon' />
           </div>
           <ul className={s.ul_nav}>
-            <li>
+            <li onClick={handleCloseNav}>
               <a href='#info'>Инфо</a>
             </li>
-            <li>
+            <li onClick={handleCloseNav}>
               <a href='#skills'>Скилы</a>
             </li>
-            <li>
+            <li onClick={handleCloseNav}>
               <a href='#contacts'>Контакты</a>
             </li>
           </ul>
           <ul className={s.contacts}>
             <li>
-              <img src={phoneIcon} alt='phoneIcon' />
+              <a href='tel:+79003539939'>
+                <img src={phoneIcon} alt='phoneIcon' />
+              </a>
             </li>
-            <li>
+            <li className={s.telegramIcon}>
               <a href='https://t.me/anton_babenko'>
                 <img src={telegramIcon} alt='telegramIcon' />
               </a>
             </li>
-            <li>
+            <li className={s.gitIcon}>
               <a href='https://github.com/Dadorion'>
                 <img src={gitIcon} alt='gitIcon' />
               </a>
             </li>
             <li>
-              <img src={mailIcon} alt='mailIcon' />
+              <a href='mailto:anton.notes88@gmail.com'>
+                <img src={mailIcon} alt='mailIcon' />
+              </a>
             </li>
           </ul>
         </nav>
@@ -67,8 +75,10 @@ export default function ScreenI() {
         <h2 className={s.title_two}>разработчик</h2>
         <h3 className={s.subtitle}>Антон Бабенко</h3>
         <div className={s.button}>
-          <img src={telegramDarkIcon} alt='telegramDarkIcon' />
-          <p>Связаться</p>
+          <a href='https://t.me/anton_babenko'>
+            <img src={telegramDarkIcon} alt='telegramDarkIcon' />
+            <p>Связаться</p>
+          </a>
         </div>
       </div>
       <div className={s.photo_box}>
