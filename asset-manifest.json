@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/my_business_card/static/css/main.7cc97743.css",
+    "main.js": "/my_business_card/static/js/main.28dda54b.js",
+    "static/media/Антон_ai_clean_colored 1.png": "/my_business_card/static/media/Антон_ai_clean_colored 1.33c34a3348ecfe6a8d7a.png",
+    "static/media/React.png": "/my_business_card/static/media/React.3205b53d8b7d3181c137.png",
+    "static/media/Users.svg": "/my_business_card/static/media/Users.edfc457dc38e1449b65c8359ccd2f06c.svg",
+    "static/media/Gear.svg": "/my_business_card/static/media/Gear.74a5ea4d76c8c2986a8e72aa39fbdd2e.svg",
+    "static/media/Brain.svg": "/my_business_card/static/media/Brain.c26c9fbce19524b2eb6cc82ca60afc76.svg",
+    "static/media/Sql.svg": "/my_business_card/static/media/Sql.87049f159d3cfba7348b3cecac7a8b80.svg",
+    "static/media/GithubLogo.svg": "/my_business_card/static/media/GithubLogo.05e86e6fe8365dcbe406af4993900888.svg",
+    "static/media/GitBranch.svg": "/my_business_card/static/media/GitBranch.b9c213f79f9f946163b54e5b7fac05c9.svg",
+    "static/media/FileJs.svg": "/my_business_card/static/media/FileJs.0f0f4833e443cb5eddb1481ed7ded7d8.svg",
+    "static/media/Ear.svg": "/my_business_card/static/media/Ear.cc547b0c17f098b1264a7c272bae7204.svg",
+    "static/media/Atom.svg": "/my_business_card/static/media/Atom.c55fed1728024f722fc52d9add1e01ec.svg",
+    "static/media/Coffee.svg": "/my_business_card/static/media/Coffee.b10fdb9b9ebf615c97568a862f31f689.svg",
+    "static/media/Email.svg": "/my_business_card/static/media/Email.d806b8b27dee34fefd8b3c6f0da1aa8e.svg",
+    "static/media/Phone.svg": "/my_business_card/static/media/Phone.361146f0a712f394227336f41301affe.svg",
+    "static/media/Balance.svg": "/my_business_card/static/media/Balance.230a3dc6d15c0c3d18b04d52b70b7918.svg",
+    "static/media/Telegram_dark.svg": "/my_business_card/static/media/Telegram_dark.ef2d0f5e9a13837ad3d43be24940a891.svg",
+    "static/media/Telegram.svg": "/my_business_card/static/media/Telegram.423d21c758578601bec046a6eedc6ab0.svg",
+    "static/media/Kanban.svg": "/my_business_card/static/media/Kanban.b59bc032967c0737f58a8933cd49ac2d.svg",
+    "static/media/Close.svg": "/my_business_card/static/media/Close.a4d24c66399e519aa1ed5305f94068aa.svg",
+    "static/media/Database.svg": "/my_business_card/static/media/Database.b24dd9a575f0d647f7da221dd69e9035.svg",
+    "index.html": "/my_business_card/index.html",
+    "static/media/Menu.svg": "/my_business_card/static/media/Menu.9546fd2640fe0040241c30cbfc965014.svg",
+    "main.7cc97743.css.map": "/my_business_card/static/css/main.7cc97743.css.map",
+    "main.28dda54b.js.map": "/my_business_card/static/js/main.28dda54b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cc97743.css",
+    "static/js/main.28dda54b.js"
+  ]
+}
