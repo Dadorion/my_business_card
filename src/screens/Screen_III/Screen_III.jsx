@@ -14,7 +14,7 @@ export default function ScreenIII() {
         <h3>На связи</h3>
         <div>
           <img src={phoneIcon} alt='phoneIcon' />
-          <p>+7 900 353 99 39</p>
+          <a href='tel:+79003539939'>+7 900 353 99 39</a>
         </div>
         <div>
           <img src={telegramIcon} alt='telegramIcon' />
@@ -26,7 +26,7 @@ export default function ScreenIII() {
         </div>
         <div>
           <img src={mailIcon} alt='mailIcon' />
-          <p>anton.notes88@gmail.com</p>
+          <a href='mailto:anton.notes88@gmail.com'>anton.notes88@gmail.com</a>
         </div>
       </div>
       <div className={s.authors_block}>
