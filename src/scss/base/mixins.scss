@@ -1,5 +1,0 @@
-@mixin font($size, $weight) {
-  size: $size;
-  font-weight: $weight;
-  @extend %font-base
-}
