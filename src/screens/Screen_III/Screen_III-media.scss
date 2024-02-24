@@ -14,15 +14,29 @@
     }
     .contacts_block {
       display: flex;
+      flex-direction: row;
       flex-wrap: wrap;
       justify-content: center;
       align-items: center;
       width: 100%;
 
+      > h3 {
+        display: none;
+      }
       > div {
         display: flex;
         margin: 0.5rem 1rem;
         gap: 0.8rem;
+
+        > p {
+          display: block;
+        }
+        > a {
+          display: block;
+        }
+        > span {
+          display: none;
+        }
       }
     }
     .authors_block {
@@ -40,6 +54,24 @@
   }
 }
 @include mobile() {
-  // .Screen_III {
-  // }
+  .Screen_III {
+    .contacts_block {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0 40px;
+
+      > h3 {
+        display: block;
+        margin-bottom: 40px;
+        width: 100%;
+        text-align: center;
+        font-weight: 600;
+      }
+    }
+  }
+  .authors_block {
+    > p {
+      text-align: center;
+    }
+  }
 }
