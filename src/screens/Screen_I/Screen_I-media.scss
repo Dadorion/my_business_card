@@ -84,6 +84,14 @@
               left: 4px;
             }
           }
+          &:hover {
+            > a {
+              > img {
+                top: 7px;
+                left: 6px;
+              }
+            }
+          }
         }
         .gitIcon {
           position: relative;
@@ -92,6 +100,14 @@
               position: absolute;
               top: 6px;
               left: 6px;
+            }
+          }
+          &:hover {
+            > a {
+              > img {
+                top: 7px;
+                left: 8px;
+              }
             }
           }
         }
