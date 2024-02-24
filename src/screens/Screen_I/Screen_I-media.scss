@@ -487,15 +487,20 @@
       top: 67px;
 
       .title_one {
-        font-size: 2rem;
+        font-size: 3rem;
+        letter-spacing: 0;
         margin-bottom: 0.1rem;
       }
       .title_two {
-        font-size: 2.12rem;
+        font-size: 2rem;
+      }
+      .subtitle:first-child {
+        font-size: 1.4rem;
+        margin: 80px 0 10px 0;
       }
       .subtitle {
-        font-size: 1.1rem;
-        margin: 2rem 0;
+        font-size: 1.4rem;
+        margin: 1.3rem 0;
       }
       .button {
         > a {

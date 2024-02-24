@@ -11,6 +11,7 @@ export default function ScreenIII() {
   return (
     <div className={s.Screen_III} id='contacts'>
       <div className={s.contacts_block}>
+        <h3>На связи</h3>
         <div>
           <img src={phoneIcon} alt='phoneIcon' />
           <p>+7 900 353 99 39</p>
